@@ -961,3 +961,12 @@ Processing by SongsController#show as HTML
 Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/artists/3" for 96.252.13.40 at 2020-10-15 23:49:08 +0000
+Cannot render console from 96.252.13.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering artists/show.html.erb within layouts/application
+  Rendered artists/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
